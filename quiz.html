@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <p id="quiz-category">Quiz Category</p>
+    <div class="card">
+        <h1 class="ques">question</h1>
+        <div class="options">
+            
+        </div>
+        <div class="button">
+            <button class="btns" id="submit">Submit</button>
+            <button class="btns" id="next">Next</button>
+            <button class="btns" id="previous">Previous</button>
+        </div>            
+    </div>
+
+    <div class="resultCard">
+        <div class="numbers">
+            <div class="right">
+                <h3>Right</h3>
+                <div class="rno">6</div>
+            </div>
+            <div class="wrong">
+                <h3>Wrong</h3>
+                <div class="rno">3</div>
+            </div>
+        </div>
+
+        <div class="result">
+            <h3>Score</h3>
+            <div class="score">3</div>
+        </div>
+        
+        <div class="performance">
+            Your performance : AVERAGE
+      </div>
+  </div>
+
+  <script src="quizData.js"></script>
+  <script src="quiz.js"></script>
+</body>
+</html>
